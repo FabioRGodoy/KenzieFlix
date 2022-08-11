@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-color: black;
+font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 42px;
+}
+
+.logo img {
+    width: 229px;
+    height: 68px;
+}
+
+.titulo {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 73px;
+}
+
+.perfis {
+    display: flex;
+    justify-content: center;
+}
+
+.perfis ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 61px;
+    list-style: none;
+    max-width: 700px;
+}
+
+.perfis ul li {
+    margin-left: 26px;
+    color: #9C9C9C;
+    border: transparent;
+    transition: 0.5s; 
+}
+
+li:hover h3 {
+    color: white;
+}
+
+.perfis ul li img:hover {
+    border: solid 3px white;
+    transition: 0.5s;
+}
+
+.perfis ul li img {
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+}
+
+.troca {
+    background-image: url(/img/addperfil.png);
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+}
+
+.troca:hover {
+    background-image: url(/img/Frame\ 5.jpg);
+    border: solid 1px white;
+    transition: 0.5s;
+}
+
+.nome-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.button-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    background-color: black;
+    color: white;
+    width: 206px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1.5px solid #ffffff;
+    margin-top: 136px;
+    transition: 1s;
+}
+
+.botao:hover {
+    background-color: #ffffff;
+    color: black;
+    transition: 1s;
+    
+}
